@@ -1,0 +1,99 @@
+@import url('https://fonts.googleapis.com/css2?family=Bungee+Inline&display=swap');
+
+@media screen and (min-width: 720px) {
+    header {
+        width: 100%;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+    
+    .main-content{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;
+        margin-top: 3rem;
+    }
+    
+    .letter {
+        font-size: 10rem;
+        color: #4d4d4d;
+        font-family: Arial, Helvetica, sans-serif;
+        font-weight: bold;
+    }
+
+    
+    .btn-group {
+        display: flex;
+        flex-direction: row;
+    }
+    
+    .btn-sort, .btn-reset {
+        background-color: #4d4d4d;
+        width: 200px;
+        height: 50px;
+        padding: 10px;
+        margin: 10px 10px;
+        color: #fff;
+        font-size: large;
+        font-family: Arial, Helvetica, sans-serif;
+        border-radius: 10px;
+        box-shadow: 0px 1px 5px -1px #000000;
+    }
+    
+    .btn-sort {
+        background-color: #7ADABB;
+    }
+    
+    .btn-reset {
+        background-color: #E16161;
+    }
+    
+    .btn-sort:hover, .btn-reset:hover {
+        opacity: 80%;
+        transition: 0.15s;
+    }
+    .btn-sort:active, .btn-reset:active {
+        box-shadow: 0px 0px 0px 0px #000000;
+    }
+    footer{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        background-color: #4d4d4d;
+    }
+    
+    header h1 {
+        font-family: 'Bungee Inline', Arial, Helvetica, sans-serif;
+        font-size: 3.5em;
+        margin-top: 10px;
+        color: #444;
+    }
+    
+    footer p {
+        font-family: Arial, sans-serif;
+        font-size: 1em;
+        color: aliceblue;
+        margin-top: 15px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+    
+    .letra-repeated {
+        margin: 30px;
+        font-family: Arial, Helvetica, sans-serif;
+        font-size: 2em;
+        overflow-x: auto;
+    }
+    
+    .main-content h5 {
+        margin-top: 6rem;
+    }
+    
+    .repeated-content {
+        width: 35%;
+        height: 140px;
+    }    
+}
