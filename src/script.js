@@ -38,11 +38,11 @@ const classRepeated = () => {
     spanLetra.textContent = letrasUsadas
     spanLetra.classList.remove('alert')
     spanLetra.classList.remove('alert-danger')
-    spanLetra.classList.add('letra-repeated')
+    spanLetra.classList.add('letra-repetida')
 }
 
 const classDanger = () => {
-    spanLetra.classList.remove('letra-repeated')
+    spanLetra.classList.remove('letra-repetida')
     spanLetra.textContent = 'Reset feito'
     spanLetra.classList.add('alert')
     spanLetra.classList.add('alert-danger')

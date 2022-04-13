@@ -7,7 +7,7 @@ header {
     justify-content: center;
 }
 
-.main-content{
+.main-content {
     display: flex;
     align-items: center;
     justify-content: center;
@@ -27,7 +27,8 @@ header {
     flex-direction: column;
 }
 
-.btn-sort, .btn-reset {
+.btn-sort,
+.btn-reset {
     width: 200px;
     height: 50px;
     padding: 10px;
@@ -47,21 +48,24 @@ header {
     background-color: #E16161;
 }
 
-.btn-sort:hover, .btn-reset:hover {
+.btn-sort:hover,
+.btn-reset:hover {
     opacity: 80%;
     transition: 0.15s;
 }
-.btn-sort:active, .btn-reset:active {
+
+.btn-sort:active,
+.btn-reset:active {
     box-shadow: 0px 0px 0px 0px #000000;
 }
 
-footer{
+footer {
     display: flex;
     align-items: center;
     justify-content: center;
     background-color: #4d4d4d;
 }
-  
+
 
 header h1 {
     font-family: 'Bungee Inline', Arial, Helvetica, sans-serif;
@@ -81,17 +85,17 @@ footer p {
 }
 
 .repeated-content {
-    width: 100%;
-    height: 140px;
+    width: 40vh;
+    height: 150px;
     display: flex;
-    align-items: center;
-    justify-content: center;
+    flex-direction: column;
+    flex-wrap: wrap;
 }
 
-.letra-repeated {
-    margin: 30px;
-    font-family: Arial, Helvetica, sans-serif;
+.letra-repetida {
+    margin: 10px;
     font-size: 1.5rem;
+    font-family: Arial, Helvetica, sans-serif;
     overflow-x: auto;
 
 }
@@ -99,4 +103,3 @@ footer p {
 .main-content h5 {
     margin-top: 50px;
 }
-
